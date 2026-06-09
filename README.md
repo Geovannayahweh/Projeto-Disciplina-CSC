@@ -28,14 +28,14 @@ Abra um terminal para cada parte, todos dentro da pasta do projeto.
 Primeiro o servidor:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Depois um ou mais sensores (cada um em um terminal):
 
 ```bash
-python sensor_client.py --id sensor-01
-python sensor_client.py --id sensor-02 --base 22 --variacao 4 --intervalo 3
+python3 sensor_client.py --id sensor-01
+python3 sensor_client.py --id sensor-02 --base 22 --variacao 4 --intervalo 3
 ```
 
 Opções do sensor:
@@ -53,7 +53,7 @@ Opções do sensor:
 E por último o painel:
 
 ```bash
-python painel_client.py
+python3 painel_client.py
 ```
 
 Ele mostra um menu:
